@@ -8,6 +8,7 @@ import { Navbar3RegisterComponent } from './navbar3-register/navbar3-register.co
 import { Navbar3ContactComponent } from './navbar3-contact/navbar3-contact.component';
 import { Navbar3HomeComponent } from './navbar3-home/navbar3-home.component';
 import { Navbar3AboutComponent } from './navbar3-about/navbar3-about.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -21,7 +22,10 @@ import { Navbar3AboutComponent } from './navbar3-about/navbar3-about.component';
   ],
   imports: [
     CommonModule,
-    Navbar3RoutingModule
-  ]
+    Navbar3RoutingModule,
+    ReactiveFormsModule
+  ],
+  
+  exports: [Navbar3NavbarComponent]
 })
 export class Navbar3Module { }
