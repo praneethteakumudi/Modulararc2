@@ -4,9 +4,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MainmoduleModule } from './mainmodule/mainmodule.module';
-import {Navbar2Module} from './mainmodule'
-import { Navbar1Module } from './mainmodule/navbar1/navbar1.module';
-import { Navbar3Module } from './mainmodule';
+import { Navbar3Module } from './mainmodule/navbar3/navbar3.module';
+
 
 @NgModule({
   declarations: [
@@ -16,8 +15,7 @@ import { Navbar3Module } from './mainmodule';
     BrowserModule,
     AppRoutingModule,
     MainmoduleModule,
-    Navbar2Module,
-    Navbar1Module,
+    MainmoduleModule,
     Navbar3Module
   ],
   providers: [],
