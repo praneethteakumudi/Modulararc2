@@ -6,5 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar3-about.component.css']
 })
 export class Navbar3AboutComponent {
- name="navbar3-about-component-srilatha"
 }
