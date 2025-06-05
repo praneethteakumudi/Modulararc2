@@ -21,7 +21,10 @@ export class Navbar3RegisterComponent {
   onSubmit(){
     if(this.registerForm.valid)
     {
-      console.log('Registration Date:',this.registerForm.value);
+      console.log('Registration Data:',this.registerForm.value);
+    }
+    else {
+      console.log('Form Invalid');
     }
   }
 }

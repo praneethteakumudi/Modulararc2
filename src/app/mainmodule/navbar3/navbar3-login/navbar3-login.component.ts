@@ -20,5 +20,8 @@ export class Navbar3LoginComponent {
     if (this.loginForm.valid) {
       console.log('Login Data:', this.loginForm.value);
     }
+    else {
+      console.log('Form Invalid');
+    }
   }
 }
