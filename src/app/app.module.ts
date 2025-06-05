@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MainmoduleModule } from './mainmodule/mainmodule.module';
-import { Navbar3Module } from './mainmodule';
+import { Navbar3Module } from './mainmodule/navbar3';
 
 
 @NgModule({
