@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { MainmoduleModule } from './mainmodule/mainmodule.module';
 import {Navbar2Module} from './mainmodule'
 import { Navbar1Module } from './mainmodule/navbar1/navbar1.module';
+import { Navbar3Module } from './mainmodule';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { Navbar1Module } from './mainmodule/navbar1/navbar1.module';
     AppRoutingModule,
     MainmoduleModule,
     Navbar2Module,
-    Navbar1Module
+    Navbar1Module,
+    Navbar3Module
   ],
   providers: [],
   bootstrap: [AppComponent]
