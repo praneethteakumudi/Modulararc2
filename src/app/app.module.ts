@@ -15,6 +15,7 @@ import { Navbar3Module } from './mainmodule/navbar3/navbar3.module';
     BrowserModule,
     AppRoutingModule,
     MainmoduleModule,
+    MainmoduleModule,
     Navbar3Module
   ],
   providers: [],

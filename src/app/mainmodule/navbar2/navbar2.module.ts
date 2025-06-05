@@ -12,12 +12,7 @@ import { Navbar2AboutComponent } from './navbar2-about/navbar2-about.component';
 
 @NgModule({
   declarations: [
-    Navbar2NavbarComponent,
-    Navbar2LoginComponent,
-    Navbar2RegisterComponent,
-    Navbar2ContactComponent,
-    Navbar2HomeComponent,
-    Navbar2AboutComponent
+   
   ],
   imports: [
     CommonModule,
