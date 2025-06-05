@@ -1,16 +1,17 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-
+import { MainNavbarComponent } from './main-navbar/main-navbar.component';
 
 
 const routes: Routes = [
-  { path: 'navbar3', loadChildren: () => import('./navbar3/navbar3.module').then(m => m.Navbar3Module) },
-  { path: '', redirectTo: '/navbar3/home', pathMatch: 'full' },
-  { path: '**', redirectTo: '/navbar3/home' }
+    {
+        path: '',
+    component: MainNavbarComponent
+    }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class MainmoduleRoutingModule { }
+export class MainmoduleRoutingModule {}

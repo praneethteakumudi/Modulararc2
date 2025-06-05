@@ -1,22 +1,13 @@
-.about-section {
-  background-color: #f9f9f9;
-  border-radius: 20px;
-  padding: 30px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
-  transition: all 0.3s ease-in-out;
+h2 {
+  color: #007bff;
 }
 
-.about-section:hover {
+.hover-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.hover-card:hover {
   transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
 
-.about-section h2 {
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
-.about-section p {
-  font-size: 1rem;
-  color: #555;
-  line-height: 1.6;
-}
